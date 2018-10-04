@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "name": {
+            "en": "Dashboard",
+            "de": "DE_Dashboard"
+        },
+        "routerLink": "/customer/home",
+        "icon": "fa fa-fw fa-home"
+    },
+    {
+        "id": 2,
+        "name": {
+            "en": "My-Claims",
+            "de": "DE_My-claims"
+        },
+        "routerLink": "/help",
+        "icon": "fa-dashboard"
+    },
+    {
+        "id": 3,
+        "name": {
+            "en": "Settings",
+            "de": "DE_Settings"
+        },
+        "routerLink": false,
+        "icon": "fa-gear",
+        "sublinks": [
+            {
+                "id": 1,
+                "name": {
+                    "en": "My-Profile",
+                    "de": "DE_My-Profile"
+                },
+                "routerLink": "/settings/profile",
+                "icon": "fa-users"
+            },
+            {
+                "id": 2,
+                "name": {
+                    "en": "Change Password",
+                    "de": "Change Password"
+                },
+                "routerLink": "/settings/change-password",
+                "icon": "fa-pencil"
+            },
+            {
+                "id": 4,
+                "name": {
+                    "en": "Notifications",
+                    "de": "DE_Notifications"
+                },
+                "routerLink": "/settings/notifications",
+                "icon": "fa-users"
+            },
+            {
+                "id": 5,
+                "name": {
+                    "en": "Logout",
+                    "de": "DE_Logout"
+                },
+                "routerLink": "/auth/logout",
+                "icon": "fa fa-power-off"
+            }
+        ]
+    }
+]

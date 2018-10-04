@@ -1,0 +1,96 @@
+[
+    {
+        "id": 1,
+        "name": {
+            "en": "Dashboard",
+            "de": "DE_Dashboard"
+        },
+        "routerLink": "/surveyor/home",
+        "icon": "fa fa-fw fa-home"
+    },
+    {
+        "id": 2,
+        "name": {
+            "en": "My-Jobs",
+            "de": "DE_My-Jobs"
+        },
+        "routerLink": false,
+        "icon": "fa fa-fw fa-newspaper-o",
+        "sublinks": [
+            {
+                "id": 1,
+                "name": {
+                    "en": "All insights",
+                    "de": "DE_All insights"
+                },
+                "routerLink": "/insights",
+                "icon": "fa fa-fw fa-newspaper-o"
+            },
+            {
+                "id": 2,
+                "name": {
+                    "en": "My-Insights",
+                    "de": "DE_Unpublish-Insights"
+                },
+                "routerLink": "/editorier/insights/my-insights",
+                "icon": "fa fa-fw fa-newspaper-o"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": {
+            "en": "Garages",
+            "de": "DE_Garages"
+        },
+        "routerLink": "/messages/read/",
+        "icon": "fa-dashboard"
+    },
+    {
+        "id": 4,
+        "name": {
+            "en": "Estimates",
+            "de": "DE_Estimates"
+        },
+        "routerLink": "/settings/notifications",
+        "icon": "fa-users"
+    },
+    {
+        "id": 5,
+        "name": {
+            "en": "Settings",
+            "de": "DE_Settings"
+        },
+        "routerLink": false,
+        "icon": "fa-gear",
+        "sublinks": [
+            {
+                "id": 1,
+                "name": {
+                    "en": "Profile",
+                    "de": "DE_Profile"
+                },
+                "routerLink": "/settings/profile",
+                "icon": "fa-users"
+            },
+            {
+                "id": 2,
+                "name": {
+                    "en": "Change Password",
+                    "de": "Change Password"
+                },
+                "routerLink": "/settings/change-password",
+                "icon": "fa-pencil"
+            },
+            {
+                "id": 3,
+                "name": {
+                    "en": "Logout",
+                    "de": "DE_Logout"
+                },
+                "routerLink": "/auth/logout",
+                "icon": "fa fa-power-off"
+            }
+        ]
+    }
+]
